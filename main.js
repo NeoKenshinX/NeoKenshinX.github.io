@@ -53,6 +53,12 @@ $(function()
             $("#partLoesung").removeClass("hide");
             $("#loesung").addClass("FF129359-E1DC-4896-A29E-4EC18D459940");
         }
+        else if ((pin==48690)&&(name.val()=="test"))
+        {
+            $("#partEingabe").addClass("hide");
+            $("#partLoesung").removeClass("hide");
+            $("#loesung").addClass("FF129359-E1DC-4896-A29E-4EC18D459940");
+        }
     });
 
 });
