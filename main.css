@@ -4,14 +4,12 @@ html{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-    font-family: 'Mountains of Christmas', cursive;
 }
 
 body
 {
-    font-family: calibri;
-    color: white;
-    
+  font-family: 'Mountains of Christmas', cursive;
+  color: white;
 }
 
 .container{
