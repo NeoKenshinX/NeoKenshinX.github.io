@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>aussagekräftiger Titel der Seite</title>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Sichtbarer Dokumentinhalt im body -->
+    <div class="container">
+      <div class="text">Willkommen</div>
+      <div class="text">zum</div>
+      <div class="text" >Weihnachtswichteln</div>
+      <div class="wichtel"></div>
+        <div id="partEingabe">
+          <div class="textName">Namen eingeben </div>
+          <div class="fName">
+            <input id="fieldName" type="text"> 
+          </div>
+          <div class="textName">PIN eingeben </div>
+          <div class="pin">
+            <input id="pinCode" type="text"> 
+          </div>
+          <div id="geschenk"></div>
+      </div>
+      <div class="hide" id="partLoesung">
+          <div class="textName">Du bist Wichtel von </div>
+          <div id="loesung"></div>
+      </div>
+    </div>
+      <script src="jquery-3.2.1.min.js"></script>
+      <script src="main.js"></script>
+  </body>
+</html>
