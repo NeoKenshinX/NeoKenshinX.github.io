@@ -57,6 +57,44 @@ body
     cursor: pointer;
 }
 
+.hide{
+    display: none;
+}
+
+
+.C8ACB0F6-5A3E-464D-A627-EA5B4E73F7CC{
+    background: url("nicole.png");
+}
+
+.FF129359-E1DC-4896-A29E-4EC18D459940{
+    background: url("anni.png");
+}
+
+.A9B64B96-C5B0-4D05-A963-745BB9923B69{
+    background: url("pepe.png");
+}
+
+.A56DD53C-8A0B-4E5B-8A79-9018D7128CB9{
+    background: url("julian.png");
+}
+
+.BA6BE6E7-DA09-4419-99F8-0EF345A9B0F0{
+    background: url("markus.png");
+}
+
+.C496A187-2C07-4493-BF4A-DD30341C2069{
+    background: url("christina.png");
+}
+
+.picNames{
+    background-size: 100%;
+    height: 200px;
+    width: 200px;
+    right: 200px;
+    top: 220px;
+    position: absolute;
+}
+
 @media screen and (max-width: 550px) {
     .wichtel {
         background-size: 50%;
@@ -68,68 +106,9 @@ body
         background-size: 50%;
         right: 110px;
     }
-}
 
-.hide{
-    display: none;
-}
+    .picNames{
+        right: 110px;
 
-.C8ACB0F6-5A3E-464D-A627-EA5B4E73F7CC{
-    background: url("nicole.png");
-    background-size: 100%;
-    height: 200px;
-    width: 200px;
-    right: 200px;
-    top: 220px;
-    position: absolute;
-}
-
-.FF129359-E1DC-4896-A29E-4EC18D459940{
-    background: url("anni.png");
-    background-size: 100%;
-    height: 200px;
-    width: 200px;
-    right: 200px;
-    top: 220px;
-    position: absolute;
-}
-
-.A9B64B96-C5B0-4D05-A963-745BB9923B69{
-    background: url("pepe.png");
-    background-size: 100%;
-    height: 200px;
-    width: 200px;
-    right: 200px;
-    top: 220px;
-    position: absolute;
-}
-
-.A56DD53C-8A0B-4E5B-8A79-9018D7128CB9{
-    background: url("julian.png");
-    background-size: 100%;
-    height: 200px;
-    width: 200px;
-    right: 200px;
-    top: 220px;
-    position: absolute;
-}
-
-.BA6BE6E7-DA09-4419-99F8-0EF345A9B0F0{
-    background: url("markus.png");
-    background-size: 100%;
-    height: 200px;
-    width: 200px;
-    right: 200px;
-    top: 220px;
-    position: absolute;
-}
-
-.C496A187-2C07-4493-BF4A-DD30341C2069{
-    background: url("christina.png");
-    background-size: 100%;
-    height: 200px;
-    width: 200px;
-    right: 200px;
-    top: 220px;
-    position: absolute;
+    }
 }
